@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="1200" height="475" alt="ALI Cyber Terminal Banner" src="https://github.com/alisattorov06/linux-kaligen/linux.png" />
+  <img width="1200" height="475" alt="ALI Cyber Terminal Banner" src="https://alisattorov06.github.io/linux-kaligen/linux.png" />
 </div>
 
 # ALI Cyber Terminal – AI Powered Cybersecurity Studio
