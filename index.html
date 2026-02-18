@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KaliGen AI Terminal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color: #000;
+        color: #0f0;
+        font-family: 'Fira Code', monospace;
+        overflow: hidden;
+      }
+      /* Scrollbar styling */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0a0a0a;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #1a1a1a;
+        border: 1px solid #00ff00;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #00ff00;
+        cursor: pointer;
+      }
+      .neon-text {
+        text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+      }
+      .scan-line {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: rgba(0, 255, 0, 0.1);
+        opacity: 0.4;
+        animation: scan 6s linear infinite;
+        pointer-events: none;
+        z-index: 50;
+      }
+      @keyframes scan {
+        0% { top: -10%; }
+        100% { top: 110%; }
+      }
+
+      /* Markdown Styles for Terminal */
+      .markdown-content {
+        line-height: 1.6;
+      }
+      .markdown-content p { margin-bottom: 0.5rem; }
+      .markdown-content pre { 
+        background: rgba(0, 50, 0, 0.5); 
+        padding: 0.8rem; 
+        border: 1px solid #00ff00; 
+        border-radius: 4px;
+        overflow-x: auto; 
+        margin: 0.5rem 0; 
+      }
+      .markdown-content code { 
+        font-family: 'Fira Code', monospace; 
+        background: rgba(0, 255, 0, 0.1); 
+        padding: 0.1rem 0.3rem; 
+        border-radius: 2px; 
+        font-size: 0.9em;
+      }
+      .markdown-content pre code { 
+        background: transparent; 
+        padding: 0; 
+        color: #ccffcc;
+        font-size: 0.85em;
+      }
+      .markdown-content ul { list-style-type: disc; margin-left: 1.5rem; margin-bottom: 0.5rem; }
+      .markdown-content ol { list-style-type: decimal; margin-left: 1.5rem; margin-bottom: 0.5rem; }
+      .markdown-content li { margin-bottom: 0.2rem; }
+      .markdown-content a { text-decoration: underline; color: #00ff00; }
+      .markdown-content strong { font-weight: bold; color: #fff; }
+      .markdown-content h1, .markdown-content h2, .markdown-content h3 { 
+        font-weight: bold; 
+        margin-top: 1rem; 
+        margin-bottom: 0.5rem; 
+        color: #ccffcc; 
+        text-transform: uppercase;
+        border-bottom: 1px dashed #005500;
+        padding-bottom: 0.2rem;
+      }
+      .markdown-content table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9em; }
+      .markdown-content th, .markdown-content td { border: 1px solid #005500; padding: 0.5rem; text-align: left; }
+      .markdown-content th { background: rgba(0, 50, 0, 0.8); color: #fff; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.574.0",
+    "recharts": "https://esm.sh/recharts@^3.7.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react-markdown": "https://esm.sh/react-markdown@9.0.1?bundle"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <div class="scan-line"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
