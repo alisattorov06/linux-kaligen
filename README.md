@@ -1,20 +1,29 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" height="475" alt="ALI Cyber Terminal Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# ALI Cyber Terminal – AI Powered Cybersecurity Studio
 
-This contains everything you need to run your app locally.
+Interactive AI-powered cybersecurity terminal inspired by Kali Linux environment.  
+Designed for ethical hacking education, phishing awareness training, and controlled penetration testing labs.
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+🔗 **Try Live Version:**  
+https://your-demo-link.com
 
-## Run Locally
+🔗 **View in AI Studio:**  
+https://ai.studio/apps/temp/1
 
-**Prerequisites:**  Node.js
+---
 
+## 🔥 What This Project Does
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- Teaches ethical hacking fundamentals
+- Demonstrates phishing detection techniques
+- Simulates reconnaissance workflows
+- Provides AI-assisted cybersecurity explanations
+- Allows real command-style interaction
+- Streams logs and security analysis in real-time
+
+This is a cybersecurity learning platform — not an illegal hacking toolkit.
+
+---
