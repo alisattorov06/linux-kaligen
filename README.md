@@ -2,7 +2,7 @@
   <img width="1200" height="475" alt="ALI Cyber Terminal Banner" src="https://alisattorov06.github.io/linux-kaligen/linux.png" />
 </div>
 
-# ALI Cyber Terminal – AI Powered Cybersecurity Studio
+# KaliGen OS – AI Powered Cybersecurity Studio
 
 Interactive AI-powered cybersecurity terminal inspired by Kali Linux environment.  
 Designed for ethical hacking education, phishing awareness training, and controlled penetration testing labs.
