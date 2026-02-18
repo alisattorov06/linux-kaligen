@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="1200" height="475" alt="ALI Cyber Terminal Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" height="475" alt="ALI Cyber Terminal Banner" src="https://github.com/alisattorov06/linux-kaligen/linux.png" />
 </div>
 
 # ALI Cyber Terminal – AI Powered Cybersecurity Studio
@@ -8,10 +8,7 @@ Interactive AI-powered cybersecurity terminal inspired by Kali Linux environment
 Designed for ethical hacking education, phishing awareness training, and controlled penetration testing labs.
 
 🔗 **Try Live Version:**  
-https://your-demo-link.com
-
-🔗 **View in AI Studio:**  
-https://ai.studio/apps/temp/1
+[https://linux-kaligen.vercel.app/]
 
 ---
 
