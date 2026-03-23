@@ -8,7 +8,7 @@ Interactive AI-powered cybersecurity terminal inspired by Kali Linux environment
 Designed for ethical hacking education, phishing awareness training, and controlled penetration testing labs.
 
 🔗 **Try Live Version:**  
-[https://linux-kaligen.vercel.app/]
+https://linux-kaligen.vercel.app
 
 ---
 
